@@ -26,6 +26,11 @@ export function Header() {
               주문
             </NavLink>
           </li>
+           <li>
+            <NavLink to="/concerts" className="text-slate-300 hover:text-slate-400">
+              콘서트
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </div>
