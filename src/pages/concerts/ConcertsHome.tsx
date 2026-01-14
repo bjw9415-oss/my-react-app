@@ -3,7 +3,7 @@ import {Footer} from "../../components/Footer"
 import { Content } from "../../components/Content";
 import { ConcertNav } from "../../components/ConcertNav";
 
-export function ConcertsHome(){
+export default function ConcertsHome(){
      return (
           <div>
            <Header/>

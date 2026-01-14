@@ -3,7 +3,7 @@ import {Footer} from "../../components/Footer"
 import { Content } from "../../components/Content";
 import { ConcertNav } from "../../components/ConcertNav";
 
-export function Trending(){
+export default function Trending(){
      return (
           <div>
            <Header/>

@@ -3,7 +3,7 @@ import {Footer} from "../components/Footer"
 import { Content } from "../components/Content";
 import { useSearchParams } from "react-router";
 
-export function ProductDetail(){
+export default function ProductDetail(){
      const [searchPharms]= useSearchParams();
      const id = searchPharms.get('id');
      return (

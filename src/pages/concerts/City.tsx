@@ -4,7 +4,7 @@ import { Content } from "../../components/Content";
 import { ConcertNav } from "../../components/ConcertNav";
 import { useParams } from "react-router";
 
-export function  City(){
+export default function  City(){
      const Parms= useParams();
      return (
           <div>
