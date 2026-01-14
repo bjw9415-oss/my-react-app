@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router';
 
 import './App.css';
+
 // import Home from './pages/Home';
 // import ProductDetail from './pages/ProductDetail';
 // import Cart from './pages/Cart';
@@ -23,7 +24,7 @@ const Trending = React.lazy(() => import('./pages/concerts/Trending'));
 const UseCallback = React.lazy(() => import('./pages/UseCallback'));
 const UseMemo = React.lazy(() => import('./pages/UseMemo'));
 const Condition = React.lazy(() => import('./pages/Condition'));
-
+const UseEffectExample = React.lazy(() => import('./pages/UseEffectExample'));
 function App() {
   return (
     <BrowserRouter basename="/my-react-app">
@@ -31,7 +32,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="product-detail" element={<ProductDetail />} />
-          <Route path="cart" element={<Cart />} />
+          <Route path="cart" element={<Cart />} />  
           <Route path="order" element={<Order />} />
           <Route path="concerts">
             <Route index element={<ConcertsHome />} />
@@ -41,6 +42,7 @@ function App() {
           <Route path="usecallback" element={<UseCallback />} />
           <Route path="useMemoExample" element={<UseMemo/>} />
           <Route path="condition" element={<Condition/>} />
+          <Route path="useEffectExample" element={<UseEffectExample />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
