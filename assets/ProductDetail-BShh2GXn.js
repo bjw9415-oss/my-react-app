@@ -1,1 +1,0 @@
-import{a as e,t}from"./index-7CGSXG-_.js";import{n,r,t as i}from"./Content-Bunr1EGR.js";var a=t();function o(){let[t]=e(),o=t.get(`id`);return(0,a.jsxs)(`div`,{children:[(0,a.jsx)(r,{}),(0,a.jsxs)(i,{children:[`ProductDetail Page`,(0,a.jsxs)(`p`,{children:[`Product ID: `,o]})]}),(0,a.jsx)(n,{})]})}export{o as default};

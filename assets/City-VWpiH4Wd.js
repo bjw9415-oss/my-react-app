@@ -1,1 +1,0 @@
-import{i as e,t}from"./index-7CGSXG-_.js";import{n,r,t as i}from"./Content-Bunr1EGR.js";import{t as a}from"./ConcertNav-CdxEEzMz.js";var o=t();function s(){let t=e();return(0,o.jsxs)(`div`,{children:[(0,o.jsx)(r,{}),(0,o.jsx)(a,{}),(0,o.jsxs)(i,{children:[`City Page 공연 도시: `,t.city]}),(0,o.jsx)(n,{})]})}export{s as default};

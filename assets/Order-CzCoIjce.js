@@ -1,0 +1,1 @@
+import{t as e}from"./index-D2nM6ldL.js";import{n as t,r as n,t as r}from"./Content-BCepfQNv.js";var i=e();function a(){return(0,i.jsxs)(`div`,{children:[(0,i.jsx)(n,{}),(0,i.jsx)(r,{children:`Order Page`}),(0,i.jsx)(t,{})]})}export{a as default};

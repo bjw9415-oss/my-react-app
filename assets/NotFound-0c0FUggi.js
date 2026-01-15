@@ -1,0 +1,1 @@
+import{r as e,t}from"./index-D2nM6ldL.js";import{n,r,t as i}from"./Content-BCepfQNv.js";var a=t();function o(){let t=e();return(0,a.jsxs)(`div`,{children:[(0,a.jsx)(r,{}),(0,a.jsxs)(i,{children:[`404 Not Found Page`,(0,a.jsx)(`button`,{onClick:()=>t(`/`),children:`홈으로 이동`})]}),(0,a.jsx)(n,{})]})}export{o as default};

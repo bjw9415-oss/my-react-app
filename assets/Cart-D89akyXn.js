@@ -1,1 +1,0 @@
-import{t as e}from"./index-7CGSXG-_.js";import{n as t,r as n,t as r}from"./Content-Bunr1EGR.js";var i=e();function a(){return(0,i.jsxs)(`div`,{children:[(0,i.jsx)(n,{}),(0,i.jsx)(r,{children:`Cart Page`}),(0,i.jsx)(t,{})]})}export{a as default};
