@@ -8,8 +8,9 @@ export default function Home(){
          
           <div>
            <Header/>
-            <Content>Home Page
-               <button onClick={()=> navigate('/cart')}>주문</button>
+            <Content className="flex flex-col gap-4">Home Page
+               <button onClick={()=> navigate('/cart')}>장바구니로 이동</button>
+               <button onClick={()=> navigate('/user-list')}>사용자 목록으로 이동</button>
             </Content>
             <Footer/>
             </div>
