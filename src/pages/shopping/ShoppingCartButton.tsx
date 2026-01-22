@@ -1,6 +1,6 @@
 export function ShoppingCartButton() {
   return (
-    <button className="focus:ring-opacity-75 fixed top-8 right-8 rounded-full bg-blue-600 p-4 text-white shadow-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-400 focus:outline-none">
+    <button className="focus:ring-opacity-75 fixed top-8 right-8 rounded-full bg-blue-600 p-4! text-white shadow-lg hover:bg-blue-700! focus:ring-2 focus:ring-blue-400 focus:outline-none">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-8 w-8"

@@ -30,6 +30,11 @@ const UserListPage = React.lazy(() => import('@/pages/UserListPage'));
 const ContextPage = React.lazy(() => import('@/pages/ContextPage'));
 const ThemeAppPage = React.lazy(() => import('@/pages/ThemeAppPage'));
 const ProductPage = React.lazy(() => import('@/pages/shopping/ProductPage'));
+const UseTogglePage = React.lazy(() => import('@/pages/UseTogglePage'));
+const UseLocalStoragePage = React.lazy(() => import('@/pages/UseLocalStoragePage'));
+const UseFetchPage = React.lazy(() => import('@/pages/UseFetchPage'));
+const UseDebouncePage = React.lazy(() => import('@/pages/UseDebouncePage'));
+
 function App() {
   return (
     <BrowserRouter basename="/my-react-app">
@@ -52,6 +57,10 @@ function App() {
           <Route path="context-Page" element={<ContextPage />} />
           <Route path="theme-app" element={<ThemeAppPage />} />
           <Route path="product" element={<ProductPage />} />
+          <Route path="useTogglePage" element={<UseTogglePage />} />
+          <Route path="useLocalStoragePage" element={<UseLocalStoragePage />} />
+          <Route path="useFetchPage" element={<UseFetchPage />} />
+          <Route path="useDebouncePage" element={<UseDebouncePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

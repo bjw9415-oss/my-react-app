@@ -1,12 +1,16 @@
 import React from 'react';
 
+import clsx from 'clsx';
+
 export default function LikeButton() {
   const [isLiked, setIsLiked] = React.useState(false);
   const handleLikeClick = () => setIsLiked(!isLiked);
 
   return (
     <button
-      className={`cursor-pointer text-gray-400 hover:text-red-500 ${isLiked ? 'text-red-500' : ''}`}
+      className={clsx(
+        `cursor-pointer, text-gray-400, , hover:border-0! hover:text-red-500 ${isLiked ? 'text-red-500' : ''}`,
+      )}
       onClick={handleLikeClick}
     >
       <svg
